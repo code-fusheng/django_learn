@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>管理页</title>
+</head>
+
+<body>
+
+    <div>
+        <ul>
+            <h3>用户列表</h3>
+                {% for x in user_index %}
+                <li>{{ x.name }}</li>
+                {% endfor %}
+        </ul>
+    </div>
+
+</body>
+
+</html>
